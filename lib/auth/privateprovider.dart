@@ -1,11 +1,8 @@
 import 'dart:convert';
 
 import 'package:appwrite/appwrite.dart';
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:private_upload/constants/app_constants.dart';
-import 'package:private_upload/model/docmodel.dart';
-import 'package:private_upload/model/filemodel.dart';
 import 'package:private_upload/model/signupmodel.dart';
 
 class PrivateProvider extends ChangeNotifier {
